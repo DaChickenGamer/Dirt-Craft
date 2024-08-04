@@ -21,6 +21,7 @@ public class ModTabs {
                     .withTabsBefore(CreativeModeTabs.COMBAT)
                     .icon(Items.DIRT::getDefaultInstance)
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.DIRT_STEAK.get().getDefaultInstance());
+                        pOutput.accept(ModItems.COOKED_DIRT_STEAK.get().getDefaultInstance());
+                        pOutput.accept(ModItems.UNCOOKED_DIRT_STEAK.get().getDefaultInstance());
                     }).build());
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dirt_craft:item/uncooked_dirt_steak"
+  }
+}

@@ -1,5 +1,6 @@
 {
-  "item.dirt_craft.dirt_steak": "Dirt Steak",
+  "item.dirt_craft.cooked_dirt_steak": "Cooked Dirt Steak",
+  "item.dirt_craft.uncooked_dirt_steak": "Uncooked Dirt Steak",
 
   "itemGroup.dirt_craft": "Dirt Craft"
 }
