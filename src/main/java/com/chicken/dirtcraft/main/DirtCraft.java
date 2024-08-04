@@ -1,5 +1,6 @@
-package com.chicken.dirtcraft;
+package com.chicken.dirtcraft.main;
 
+import com.chicken.dirtcraft.block.ModBlocks;
 import com.chicken.dirtcraft.items.ModItems;
 import com.chicken.dirtcraft.ui.ModTabs;
 import org.slf4j.Logger;
@@ -46,6 +47,7 @@ public class DirtCraft
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
 
         ModItems.ITEMS.register(modEventBus);
+        ModBlocks.BLOCKS.register(modEventBus);
         ModTabs.CREATIVE_TABS.register(modEventBus);
     }
 

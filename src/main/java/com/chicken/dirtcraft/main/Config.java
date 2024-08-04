@@ -1,4 +1,4 @@
-package com.chicken.dirtcraft;
+package com.chicken.dirtcraft.main;
 
 import java.util.List;
 import java.util.Set;
@@ -20,7 +20,7 @@ public class Config
     private static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
 
     private static final ModConfigSpec.BooleanValue LOG_DIRT_BLOCK = BUILDER
-            .comment("Whether to log the dirt block on common setup")
+            .comment("Whether to log the dirt com.chicken.dirtcraft.block on common setup")
             .define("logDirtBlock", true);
 
     private static final ModConfigSpec.IntValue MAGIC_NUMBER = BUILDER

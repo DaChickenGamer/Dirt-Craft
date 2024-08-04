@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dirt_craft:dirt_compressed"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "dirt_craft:block/dirt_compressed"
+}

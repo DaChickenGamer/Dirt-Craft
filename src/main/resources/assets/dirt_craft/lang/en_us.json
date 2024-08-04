@@ -2,5 +2,13 @@
   "item.dirt_craft.cooked_dirt_steak": "Cooked Dirt Steak",
   "item.dirt_craft.uncooked_dirt_steak": "Uncooked Dirt Steak",
 
+  "block.dirt_craft.dirt_compressed": "Dirt Compressed",
+  "block.dirt_craft.dirt_highly_compressed": "Dirt Highly Compressed",
+  "block.dirt_craft.dirt_super_compressed": "Dirt Super Compressed",
+  "block.dirt_craft.dirt_ultra_compressed": "Dirt Ultra Compressed",
+  "block.dirt_craft.dirt_extreme_compressed": "Dirt Extreme Compressed",
+  "block.dirt_craft.dirt_max_compressed": "Dirt Max Compressed",
+
+
   "itemGroup.dirt_craft": "Dirt Craft"
 }

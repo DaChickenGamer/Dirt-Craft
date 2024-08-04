@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "natural",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "id": "dirt_craft:dirt_compressed"
+  }
+}

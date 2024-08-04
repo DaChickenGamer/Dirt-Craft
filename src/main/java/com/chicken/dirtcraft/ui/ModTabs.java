@@ -9,7 +9,7 @@ import net.minecraft.world.item.Items;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-import static com.chicken.dirtcraft.DirtCraft.MODID;
+import static com.chicken.dirtcraft.main.DirtCraft.MODID;
 
 public class ModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS =
@@ -23,5 +23,13 @@ public class ModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.COOKED_DIRT_STEAK.get().getDefaultInstance());
                         pOutput.accept(ModItems.UNCOOKED_DIRT_STEAK.get().getDefaultInstance());
+
+                        // Blocks
+                        pOutput.accept(ModItems.DIRT_COMPRESSED.get().getDefaultInstance());
+                        pOutput.accept(ModItems.DIRT_HIGHLY_COMPRESSED.get().getDefaultInstance());
+                        pOutput.accept(ModItems.DIRT_SUPER_COMPRESSED.get().getDefaultInstance());
+                        pOutput.accept(ModItems.DIRT_ULTRA_COMPRESSED.get().getDefaultInstance());
+                        pOutput.accept(ModItems.DIRT_EXTREME_COMPRESSED.get().getDefaultInstance());
+                        pOutput.accept(ModItems.DIRT_MAX_COMPRESSED.get().getDefaultInstance());
                     }).build());
 }

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "BBB",
+    "BHB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:dirt"
+    },
+    "H": {
+      "item": "minecraft:beef"
+    }
+  },
+  "result": {
+    "id": "dirt_craft:uncooked_dirt_steak"
+  }
+}
