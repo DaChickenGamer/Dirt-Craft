@@ -31,5 +31,7 @@ public class ModTabs {
                         pOutput.accept(ModItems.DIRT_ULTRA_COMPRESSED.get().getDefaultInstance());
                         pOutput.accept(ModItems.DIRT_EXTREME_COMPRESSED.get().getDefaultInstance());
                         pOutput.accept(ModItems.DIRT_MAX_COMPRESSED.get().getDefaultInstance());
+
+                        pOutput.accept(ModItems.DIRT_STAR.get().getDefaultInstance());
                     }).build());
 }

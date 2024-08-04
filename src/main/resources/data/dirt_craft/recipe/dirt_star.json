@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "XBX",
+    "BHB",
+    "XBX"
+  ],
+  "key": {
+    "B": {
+      "item": "dirt_craft:dirt_max_compressed"
+    },
+    "H": {
+      "item": "minecraft:nether_star"
+    },
+    "X": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "id": "dirt_craft:dirt_star"
+  }
+}

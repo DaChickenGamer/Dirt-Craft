@@ -3,6 +3,7 @@ import com.chicken.dirtcraft.block.ModBlocks;
 import com.chicken.dirtcraft.main.DirtCraft;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -13,6 +14,9 @@ public class ModItems {
             new Item.Properties().food(ModFoods.UNCOOKED_DIRT_STEAK));
     public static final DeferredItem<Item> COOKED_DIRT_STEAK = ITEMS.registerSimpleItem("cooked_dirt_steak",
             new Item.Properties().food(ModFoods.COOKED_DIRT_STEAK));
+
+    public static final DeferredItem<Item> DIRT_STAR = ITEMS.registerSimpleItem("dirt_star",
+            new Item.Properties().rarity(Rarity.EPIC));
 
     // Blocks
 
